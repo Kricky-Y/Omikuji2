@@ -1,0 +1,57 @@
+/* 文字コードで日本語の値を指定する */
+@charset "utf-8";
+
+main {
+  width: 240px;
+  margin: 32px auto;
+}
+
+section {
+  border: 4px double purple;
+  text-align: center;
+  color: red;
+  background: rgb(224, 203, 224);
+  }
+
+h1 {
+  margin: 0;
+  border-bottom: 2px solid purple;
+  color: black;
+  font-weight: normal;
+  padding: 8px 0;
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 24px 0;
+  color: #7a7575;
+}
+
+button {
+  all: unset;
+  width: 100%;
+  background: purple;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  padding: 8px 0;
+  margin-top: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px #410101;
+
+}
+
+/* ボタンの疑似クラス(スペースなし) */
+button:hover {
+  opacity: .8;
+}
+
+button:active {
+  /* ボタンについた影を薄くする */
+  box-shadow: 0 1px #7a0000;
+  /* ボタンが下に押し込まれる動き */
+  transform: translateY(3px);
+
+}
